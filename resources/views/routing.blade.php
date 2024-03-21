@@ -45,6 +45,9 @@ list-group-item-action">Route Priority
     <a href="{{ url('/asdqwezxc') }}" class="list-group-item
 list-group-item-action">Fallback Routes
     </a>
+    <a href="{{ url('/bootstrap') }}" class="list-group-item list-group-item-action">
+        bootstrap
+    </a>
 
         </div>
 <h6 class="mt-4">Route Groups (Route Prefixes & Route Name Prefixes)</h6>
@@ -57,9 +60,6 @@ list-group-item-action">Fallback Routes
     </a>
     <a href="{{ route('admin.items') }}" class="list-group-item list-group-item-action">
         Admin Items
-    </a>
-    <a href="{{ url('/bootstrap') }}" class="list-group-item list-group-item-action">
-        bootstrap
     </a>
 </div>
     </div>
